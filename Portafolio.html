@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="CSS/bootstrap.css">
+  <link rel="stylesheet" href="CSS/EstillosPropios.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="">Mi Portafolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="Index.html">Inicio</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Portafolio.html" id="portafolioDropdown" role="button" data-toggle="dropdown">Portafolio</a>
+            <ul class="dropdown-menu">
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="Portafolio.html">Desarrollo Web</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Portafolio.html">Proyecto 1</a></li>
+                  <li><a class="dropdown-item" href="Portafolio.html">Proyecto 2</a></li>
+                </ul>
+              </li>
+              <li class="dropdown-submenu">
+                <a class="dropdown-item dropdown-toggle" href="Portafolio.html">Diseño Gráfico</a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="Portafolio.html">Illustrator</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="Portafolio.html">Proyecto 1</a></li>
+                      <li><a class="dropdown-item" href="Portafolio.html">Proyecto 2</a></li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="Portafolio.html">Photoshop</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="Portafolio.html">Proyecto 1</a></li>
+                      <li><a class="dropdown-item" href="Portafolio.html">Proyecto 2</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="Curriculum.html">Currículum</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+
+  <div class="container mt-5">
+    <h2 class="mb-4">Proyectos Destacados</h2>
+    
+    <!-- Proyecto 1 -->
+<div class="row mb-5">
+  <div class="col-md-6">
+    <video class="w-100" controls>
+      <source src="Videos/QuimiWeb.mp4" type="video/mp4">
+      Tu navegador no soporta la reproducción de video.
+    </video>
+  </div>
+  <div class="col-md-6">
+    <h3>QuimiWeb</h3>
+    <p>Esta es una plataforma web educativa que fue diseñada como proyecto de apoyo al aprendizaje de la materia de Química. Contiene juegos, teoría, cuestionarios, etc.
+      Es un sistema completo de desarrollo web para que docentes y estudiantes puedan interactuar en él.
+    </p>
+    <a href="https://github.com/usuario/proyecto3" target="_blank" class="btn btn-primary mb-3">Ver proyecto en GitHub</a>
+
+    <h5>Tecnologías utilizadas:</h5>
+    <div class="tecnologias">
+      <img src="IMG/HTML.jpg" alt="HTML" class="icono-tecnologia">
+      <img src="IMG/CSS.png" alt="CSS" class="icono-tecnologia">
+      <img src="IMG/JS.png" alt="JS" class="icono-tecnologia">
+      <img src="IMG/PHP.webp" alt="PHP" class="icono-tecnologia">
+      <img src="IMG/APACHE.png" alt="APACHE" class="icono-tecnologia">
+      <img src="IMG/MySQL.png" alt="MySQL" class="icono-tecnologia">
+    </div>
+  </div>
+</div>
+
+    <!-- Proyecto 2 -->
+    <div class="row mb-5">
+      <div class="col-md-6">
+        <img src="IMG/Proyecto1.jpg" class="imagen-proyecto-port" alt="Imagen del Proyecto 1">
+      </div>
+      <div class="col-md-6">
+        <h3>Fotomanipulacion de fresa y kiwi</h3>
+        <p>En este proyecto se implemento la herramienta de photoshop para unir dos frutas y hacer una imagen creativa para un comercial</p>
+
+        <h5>Tecnologías utilizadas:</h5>
+        <div class="tecnologias">
+          <img src="IMG/Photoshop.webp" alt="HTML5" class="icono-tecnologia">
+        </div>
+      </div>
+    </div>
+
+    <!-- Proyecto 3 -->
+    <div class="row mb-5">
+      <div class="col-md-6">
+        <img src="IMG/Proyecto2.jpeg" class="imagen-proyecto-port" alt="Imagen del Proyecto 2">
+      </div>
+      <div class="col-md-6">
+        <h3>Cartel de pelicula</h3>
+        <p>Este proyecto se realizo con las herramientas de Adobe Photoshop e Illustrator. En el que se realizo un cartel para una pelicula con una variedad de imagenes en conjunto.</p>
+
+        <h5>Tecnologías utilizadas:</h5>
+        <div class="tecnologias">
+          <img src="IMG/Illustrator.webp" alt="Illustrator" class="icono-tecnologia">
+          <img src="IMG/Photoshop.webp" alt="Photoshop" class="icono-tecnologia">
+        </div>
+      </div>
+    </div>
+
+    
+  </div>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Erika Gasca | Portafolio Personal</p>
+    <div class="iconos-footer">
+      <a href="https://www.linkedin.com/in/erika-gasca-castillo-8450b82a3?trk=contact-info"><i class="fab fa-linkedin"></i></a>
+      <a href="https://erikagascac.github.io/"><i class="fab fa-github"></i></a>
+      <a href="erikaagas24@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+  </footer>
+
+  <script src="JS/jquery-3.7.1.js"></script>
+  <script src="JS/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+
+/*Local*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+  }
+
+  .seccion-principal {
+    background: linear-gradient(135deg, #c14290, #aa00d4);
+    margin-top: 10px;
+    color: white;
+    padding: 30px 10px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+
+  .imagen-perfil {
+    max-width: 70%;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  }
+
+  .texto-principal h2 {
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+
+  .texto-principal p {
+    font-size: 1.1rem;
+    margin-top: 20px;
+  }
+
+  .galeria-proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .imagen-proyecto {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  .imagen-proyecto:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+
+  .tecnologia {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .tecnologia img {
+    width: 60px;
+    margin-right: 20px;
+  }
+
+  .barra-progreso {
+    height: 20px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 5px;
+  }
+
+  .barra-progreso .progreso {
+    height: 100%;
+    text-align: center;
+    color: white;
+    line-height: 20px;
+    font-size: 0.9rem;
+  }
+
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 60px;
+  }
+
+  .iconos-footer a {
+    color: white;
+    margin: 0 10px;
+    font-size: 1.4rem;
+    transition: color 0.3s ease;
+  }
+
+  .iconos-footer a:hover {
+    color: #00bcd4;
+  }
+
+
+  /*Portafolio*/
+
+  .imagen-proyecto-port {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    height: auto;
+  }
+
+  .icono-tecnologia {
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 60px;
+  }
+
+  /*Contacto*/
+
+  .contenedor-contacto {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 900px;
+    margin: auto;
+  }
+  .titulo-contacto {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #6f42c1;
+  }
+
+  /*Curriculum*/
+
+  .contenedor-cv {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    max-width: 900px;
+    margin: auto;
+  }
+  .nombre {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .info-contacto {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  .seccion {
+    margin-bottom: 30px;
+  }
+  .seccion h3 {
+    border-bottom: 2px solid #6f42c1;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #6f42c1;
+  }
+  .boton-descarga {
+    display: block;
+    margin: 30px auto 0;
+    text-align: center;
+  }
